@@ -10,7 +10,7 @@ def mean (lista):
     """
     return sum(lista)/ len(lista)
 #Predicciòn del valor de una acciòn, "Mètodo Ingenuo" 
-a=  pd.read_csv("C:/Users/zaira/Desktop/alan/series_temporales/netflix.csv")
+a=  pd.read_csv("./netflix.csv")
 ventana = 5
 bx= (mean(a["precio"]))
 precio = a["precio"]
